@@ -32,8 +32,8 @@ ingress_cidr = [
     },
 ]
 
-aws_access_key = "AKIA53VAMATPXDQQMJ4W"
-aws_secret_key = "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"
+aws_access_key = "AKIAQPGVQ6FGM723ZXH2"
+aws_secret_key = "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"
 region = "ap-south-1"
 vpc-cloudwatch-group = "project-vpc-flowlogs"
 vpc-flowlog-role = "project-vpc-flowlog-role"
