@@ -19,7 +19,7 @@ module "vpc" {
 }
 
 module "cloudwatch" {
-  source = "../cloudwatch-sample"
+  source = "./cloudwatch-sample"
 
   vpc-cloudwatch-group = var.vpc-cloudwatch-group
   vpc-flowlog-role = var.vpc-flowlog-role
