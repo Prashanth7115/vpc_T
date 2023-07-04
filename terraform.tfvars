@@ -10,7 +10,7 @@ public_subnet_names = ["project-public-1a","project-public-1b"]
 private_subnet_cidr = ["10.0.11.0/24","10.0.12.0/24"]
 private_subnet_names = ["project-private-1a","project-private-1b"]
 public_sg_name = "public-sg"
-public_sg_description = "this security group is for public communication"
+#public_sg_description = "this security group is for public communication"
 /*ingress_cidr = [
     {
       from_port = "80"
