@@ -41,16 +41,6 @@ variable "private_subnet_tags" {
   type = map
   default = {} # optional
 }
-variable "public_sg_description" {
-  description = "Description of the public security group"
-  type        = string
-}
-
-variable "ingress_cidr" {
-  description = "CIDR block for ingress traffic"
-  type        = string
-}
-
 variable "private_subnet_names" {
   type = list
 }
