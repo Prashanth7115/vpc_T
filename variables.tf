@@ -41,6 +41,11 @@ variable "private_subnet_tags" {
   type = map
   default = {} # optional
 }
+variable "public_sg_name" {
+  description = "Name of the public security group"
+  type        = string
+}
+
 variable "private_subnet_names" {
   type = list
 }
