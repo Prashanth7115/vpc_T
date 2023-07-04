@@ -34,7 +34,7 @@ public_sg_name = "public-sg"
 
 aws_access_key = "AKIAS2SOB6OJTA3BBYVP"
 aws_secret_key = "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"
-region = "ap-south-1"
+region = "us-east-1"
 vpc-cloudwatch-group = "project-vpc-flowlogs"
 vpc-flowlog-role = "project-vpc-flowlog-role"
 vpc-iam-role-policy = "project-vpc-flowlog-policy"
