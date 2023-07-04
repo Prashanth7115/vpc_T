@@ -11,7 +11,7 @@ private_subnet_cidr = ["10.0.11.0/24","10.0.12.0/24"]
 private_subnet_names = ["project-private-1a","project-private-1b"]
 public_sg_name = "public-sg"
 public_sg_description = "this security group is for public communication"
-ingress_cidr = [
+/*ingress_cidr = [
     {
       from_port = "80"
       to_port =  "80"
@@ -30,7 +30,7 @@ ingress_cidr = [
       cidr_block = "0.0.0.0/0"
       description = "opening SSH 22 port for SSH access"
     },
-]
+]*/
 
 aws_access_key = "AKIATF5RDKLUGW4VM5EW"
 aws_secret_key = "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"
