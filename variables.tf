@@ -34,6 +34,9 @@ variable "igw_tags" {
 # variable "public_route_table_name" {
 #   type = string
 # }
+variable "public_sg_name" {
+type = string
+}
 variable "private_subnet_cidr" {
   type = list
 }
